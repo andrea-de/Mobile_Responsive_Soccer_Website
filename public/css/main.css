@@ -1,0 +1,173 @@
+body {
+    height: 1100vh;
+    background: red;
+}
+
+.outer {
+    right: 0vw;
+    position: fixed;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: 101vh;
+    overflow-x: hidden;
+    overflow-y: ;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    height: 10vh;
+    background: black;
+    border-bottom: .2em solid lightgreen;
+    box-sizing: border-box;
+}
+
+header span {
+    margin-left: 3vw;
+}
+
+header > span {
+    display: none;
+}
+
+.lHeader {
+    height: 100%;
+    width: 40vw;
+    text-align: center;
+}
+
+.rHeader {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rHeader img {
+    height: 8vh;
+    width: 8vh;
+    padding: 1vh;
+}
+
+.menuPic {
+    border-right: lightgreen solid .2em;
+}
+
+.smallLogo {
+    position: fixed;
+    right: 0px;
+}
+
+header span {
+    font-size: 8vh;
+    color: white;
+}
+
+.tickerDiv {
+    position: fixed;
+    width: 140vw;
+    top: 10vh;
+    height: 5vh;
+    background: black;
+    border-bottom: .3em solid lightgreen;
+    box-sizing: border-box;
+}
+
+.ticker {
+    font-size: 3em;
+}
+
+.main {
+    width: 140vw;
+    display: flex;
+}
+
+.menu {
+    z-index: 1;
+    position: fixed;
+    top: 15vh;
+    width: 40vw;
+    height: 85vh;
+    background: black;
+    color: white;
+    font-size: 3em;
+    border-right: .2em solid lightgreen;
+    box-sizing: border-box;
+}
+
+.menu li {
+    height: 7vh;
+    border-bottom: .3px solid lightgreen;
+    padding: 1.5vh 0 0 5vw;
+    box-sizing: border-box;
+}
+
+.liLong {
+    height: 10vh !important;
+}
+
+.menuLogo {
+    margin-left: 1vw;
+    width: 37vw;
+    height: 37vw;
+    border: 5vw solid black;
+    box-sizing: border-box;
+}
+
+footer {
+    z-index: 0;
+    position: absolute;
+    bottom: 0em;
+    width: 140vw;
+    height: 6vh;
+    background: black;
+    border-top: .3em solid lightgreen;
+}
+
+.content {
+    top: 15vh;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    height: 85vh;
+    overflow: auto;
+    background: lightgreen;
+}
+
+.page {
+    margin-bottom: 5vh;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.page > div {
+    margin: 3vh 0 0 0;
+}
+
+.hide {
+    display: none !important;
+}
+
+.contentDiv {
+    padding: 1vh 2vw 1vh 2vw;
+    position: relative;
+    width: 80%;
+    background: white;
+    box-shadow: 1vw 1vh 2vw .5vw grey;
+}
+
+.contentDiv > *:first-child {
+    margin-top: 1vh;
+}
+
+.contentDiv:last-child {
+    margin-bottom: 5vh;
+}
+
+/* Insert Later - Footer to download app */

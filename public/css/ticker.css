@@ -1,0 +1,20 @@
+.tickerText {
+    position: absolute;
+    /* HACK FIX for vertical align */
+    padding: .5vh 0 0 0;
+    color: white;
+    left: 140vw;
+    width: 1000vw;
+    animation: moving 25s infinite;
+    animation-timing-function: linear
+    /*-webkit-animation: move 3s;*/
+}
+
+@keyframes moving {
+    from {
+        left: 140vw;
+    }
+    to {
+        left: -500vw;
+    }
+}

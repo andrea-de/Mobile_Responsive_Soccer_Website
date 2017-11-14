@@ -1,0 +1,18 @@
+Responsive Design
+Desktop window: 
+    Fixed narrow width
+    ContentDiv flex wrap items
+    
+Tablet window:
+    display none menulogo
+    narrower menu li's 
+
+
+should I be making ajax calls? or function called on clicked link
+
+To Do:
+
+See about address bar
+Make Responsive
+Add logout
+Debug on Apple

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="media/favicon.png" />
+    <!-- Android Styling -->
+    <meta name="theme-color" content="lightgreen">
+    <!-- IOS Styling -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="lightgreen">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!-- CSS Main -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/ticker.css">
+    <link rel="stylesheet" type="text/css" href="css/pagesRules.css">
+
+    <script src="js/data.js"></script>
+</head>
+
+<body>
+    <div class="outer">
+        <header>
+            <div class="lHeader">
+                <div class="logout"></div>
+            </div>
+            <div class="rHeader">
+                <img class="menuPic" onclick="menuLaunch()" src="media/menu.png">
+                <span style="float: left; margin-left: 30px;">&nbsp;&nbsp;NYSL</span>
+                <img data-linkedPage="pageHome" class="smallLogo" src="media/logo1.png">
+            </div>
+        </header>
+        <div data-linkedPage="pageNews" class="tickerDiv">
+            <div class="ticker" style="font-size: 3em;">
+                <div class="tickerText">
+                    <span>Breaking News: Kids are Annoying</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>Local kid scores an own goal that Loses match. His parents cheer as other attendees throw garbage at them.</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>County referees suspected of fixing matches for very small sums of money.</span>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="menu">
+                <ul>
+                    <li data-linkedPage="pageNews">News</li>
+                    <li data-linkedPage="pageEvents">Events</li>
+                    <li class="liLong" data-linkedPage="pageSchedule">Matches<br>Schedule</li>
+                    <li class="liLong" data-linkedPage="pageLocations">Match<br>Locations</li>
+                    <li class="liLong" data-linkedPage="pageTeams">Standings<br>&amp; Teams</li>
+                    <li data-linkedPage="pageScores">Scores</li>
+                    <li data-linkedPage="pageChat">Chat</li>
+                    <li data-linkedPage="pageContact">Contact</li>
+                    <img data-linkedPage="pageHome" src="media/logo.png" class="menuLogo">
+                </ul>
+            </div>
+            <div class="content">
+                <div class="page pageHome">
+                    <div class="pic">
+                        <img src="media/startPic.jpg">
+                        <span>Breaking News: Kids are Annoying</span>
+                    </div>
+                    <div class="contentDiv">
+                        <h5>Upcoming Matches</h5>
+                        <table id="">
+                            <tr>
+                                <th>Date</th>
+                                <th>Match</th>
+                            </tr>
+                            <tr>
+                                <td>10.11.17</td>
+                                <td>Wolverines vs Rabbits</td>
+                            </tr>
+                            <tr>
+                                <td>10.13.17</td>
+                                <td>Avengers vs Justice League</td>
+                            </tr>
+                            <tr>
+                                <td>10.15.17</td>
+                                <td>Tables vs Chairs</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="contentDiv">
+                        <h5>Top Ranks</h5>
+                        <table id="">
+                            <tr>
+                                <th>Team</th>
+                                <th>Points</th>
+                            </tr>
+                            <tr>
+                                <td>Wolverins</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>Chairs</td>
+                                <td>10</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="contentDiv topScorersDiv">
+                        <h5>Top Goal Scorers</h5>
+                        <table>
+                            <tr>
+                                <th>Player</th>
+                                <th>Goals</th>
+                            </tr>
+                            <tr>
+                                <td>Kobe Bryant</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <td>Andrea Pirlo</td>
+                                <td>21</td>
+                            </tr>
+                            <tr>
+                                <td>Brett Favre</td>
+                                <td>4</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="page pageNews hidePage"></div>
+                <div class="page pageEvents hidePage"></div>
+                <div class="page pageSchedule hidePage"></div>
+                <div class="page pageLocations hidePage"></div>
+                <div class="page pageTeams hidePage"></div>
+                <div class="page pageScores hidePage"></div>
+                <div class="page pageChat hidePage">
+                    <button class="contentDiv" id="login" style="font-size: 3vh; margin-top: 2vh;">Login</button>
+                    <div class="contentDiv chatDiv hidePage" id="posts">
+                    </div>
+                    <div class="contentDiv chatbox hidePage">
+                        <input id="body" type="text" placeholder="Your message...">
+                        <button id="post" style="font-size: 2vh;">Post</button>
+                    </div>
+                </div>
+                <div class="page pageContact hidePage">
+                    <div class="contentDiv">
+                        <h3>If you want to Contact someone about Soccer or something</h3>
+                        <h4>Too bad, this is a fake website.</h4>
+                        <img src="https://lh3.googleusercontent.com/TUTmemn9KzG9rlwe7naJ1-M4dY73pdn05S25DHXkwVfmPb2kOLPr3EepJhD4UkomlOe-=h900">
+                    </div>
+                </div>
+            </div>
+            <footer style="display: ;"></footer>
+        </div>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js "></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAK1GUMgGRAmCwQKOgl03W8CT8YirGlOIs ",
+            authDomain: "nysl-home.firebaseapp.com ",
+            databaseURL: "https://nysl-home.firebaseio.com ",
+            projectId: "nysl-home ",
+            storageBucket: "nysl-home.appspot.com ",
+            messagingSenderId: "320994254821 "
+        };
+        firebase.initializeApp(config);
+
+    </script>
+    <script src="js/populate.js"></script>
+    <script src="js/main.js "></script>
+    <script src="js/chat.js "></script>
+    <script>
+
+
+    </script>
+</body>
+
+</html>

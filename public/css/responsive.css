@@ -1,0 +1,82 @@
+@media only screen and (max-height: 600px) {
+    .main,
+    .header,
+    .tickerDiv {
+        width: 100vw;
+    }
+    .lHeader,
+    .menu {
+        width: 25vw;
+    }
+    .rHeader,
+    .content,
+    .page {
+        width: 75vw;
+    }
+    .menuPic,
+    .rHeader span {
+        display: none;
+    }
+    header > span {
+        display: inline;
+    }
+    header > span:after {
+        content: '   ';
+    }
+    .ticker {
+        font-size: 1em;
+    }
+    .menu {
+        font-size: 1em;
+    }
+    .menu li {
+        height: 8vh !important;
+        padding: 1vw 30px 0 1vw;
+        font-size: 1.3em;
+    }
+    .menu li br {
+        content: ' ';
+    }
+    .menu li br:after {
+        content: ' ';
+    }
+    .menuLogo {
+        z-index: 15;
+        width: 13vw;
+        height: 13vw;
+        border: 3vw;
+        margin: 2vh 5vw 2vh 2vw;
+    }
+    .pageHome img {
+        margin: ;
+        width: 80%;
+    }
+    .pageHome .pic span {
+        font-size: 1.7em;
+    }
+    .contentDiv {
+        width: 40vw;
+    }
+    .contentDiv {
+        font-size: .8em;
+    }
+    .contentDiv > *:first-child {
+        margin-top: 1vw;
+    }
+    .teamDiv {
+        width: 20vw
+    }
+    .pageTeams img {
+        margin-right: 2vw;
+        width: 15vw;
+        height: 15vw;
+    }
+
+
+}
+
+@media (min-width:1000px) {
+    .main {
+        display: ;
+    }
+}

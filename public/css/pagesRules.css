@@ -1,0 +1,261 @@
+/* Global Font Rules */
+
+.contentDiv {
+    font-size: 1.3em;
+}
+
+.contentDiv h3 {
+    font-weight: bolder;
+    font-size: 2em
+}
+
+.contentDiv h4 {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+.contentDiv h5 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.contentDiv img {
+    width: 90%;
+}
+
+.contentDiv table {
+    font-size: 1.5em;
+    border-spacing: 2vw;
+    border-collapse: separate;
+}
+
+/* Home Page */
+
+.pageHome .pic {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pageHome img {
+    text-align: center;
+    width: 89vw;
+    margin: 0 6vw 0 5vw;
+    box-shadow: 1vw 1vh 2vw .5vw grey;
+}
+
+.pageHome span {
+    color: white;
+    position: absolute;
+    bottom: 2vh;
+    left: 5vw;
+    font-size: 3vh;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0 4vw .5vh 2vw;
+}
+
+.pageHome .contentDiv table {}
+
+.pageHome h5 {
+    text-align: center;
+    width: 100%;
+}
+
+.pageHome table {
+    width: 100%;
+}
+
+/* News Page */
+
+.pageNews :not(.showContentDiv) p,
+.pageNews :not(.showContentDiv) img {
+    display: none;
+}
+
+.pageNews .contentDiv img {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    left: 5%;
+    padding: 1vh 0 0 0;
+}
+
+/* Events Page */
+
+.pageEvents :not(.showContentDiv) h5,
+.pageEvents :not(.showContentDiv) p,
+.pageEvents :not(.showContentDiv) img {
+    display: none;
+}
+
+/* Matches Schedule Page */
+
+.pageSchedule {
+    background: lightgreen;
+}
+
+.pageSchedule .contentDiv {
+    background: white;
+}
+
+.pageSchedule .matchBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pageSchedule .matchBox span {
+    text-align: center;
+    width: 40%;
+    font-size: 3em;
+}
+
+.pageSchedule .teamDiv h4 {
+    font-size: 3em;
+}
+
+.pageSchedule h4 {
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.pageSchedule h5 {
+    font-size: .6em;
+}
+
+/* Match Locations Page */
+
+.pageLocations h3 {
+    margin-bottom: 1vw;
+}
+
+.pageLocations iframe {
+    width: 100%;
+    height: 35vh;
+}
+
+.pageLocations :not(.showContentDiv) iframe {
+    display: none;
+}
+
+/* Team Rankings Page */
+
+.pageTeams table {
+    border-collapse: collapse;
+}
+
+.pageTeams table tr > * {
+    padding: 2vh;
+}
+
+.pageTeams table thead {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.pageTeams table thead th {
+    border-bottom: 1px solid black;
+}
+
+.pageTeams table tr *:first-child {
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.pageTeams table tr *:last-child {
+    padding-left: 4vh;
+}
+
+.pageTeams .teamsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.teamDiv {
+    width: 25vw;
+    text-align: center;
+}
+
+.pageTeams img {
+    width: 20vw;
+    height: 20vw;
+}
+
+.pageTeams h2 {
+    margin: 1vh 0 0 1vw;
+    text-align: left;
+    font-size: 4em;
+}
+
+.pageTeams h3 {
+    text-align: left;
+    font-size: 2em;
+}
+
+/* Chat Page */
+
+.pageChat > * {
+    border-radius: 15px;
+}
+
+#login {
+    position: absolute;
+}
+
+.chatDiv {
+    border-radius: 20px;
+    height: 55vh;
+    font-size: 2vh;
+    overflow-y: auto;
+}
+
+.chatDiv > div {
+    font-size: 1em;
+    width: fit-content;
+    display: inline-block;
+    margin-bottom: 1vh;
+    max-width: 60%;
+    border-radius: 20px;
+    float: right;
+    clear: both;
+    border: solid lightblue 1em;
+    background: lightblue;
+}
+
+.chatDiv .myPost {
+    float: left;
+    border: solid #fff352 1em;
+    background: #fff352;
+}
+
+.chatbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatbox #body {
+    width: 85%
+}
+
+.chatbox > * {
+    margin-top: 0 !important;
+}
+
+.chatbox {
+    font-size: 2em;
+}
+
+#logout {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Contact Page */
+
+.pageContact :not(.showContentDiv) img {
+    display: none;
+}
