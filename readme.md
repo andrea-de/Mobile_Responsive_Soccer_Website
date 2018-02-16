@@ -2,9 +2,9 @@
 
 Soccer League chat-enabled mobile responsive website hosted on Google Firebase
 
+#### Website !! - Mobile Only - !!
 https://nysl-home.firebaseapp.com/
 
-#### Website !! - Mobile Only - !!
 <img src="demoPics/demo1.PNG" alt="NYSL" style="text-align:center; width: 100%"/>
 
 ## Technology Detail
