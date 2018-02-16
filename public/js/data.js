@@ -21,7 +21,7 @@ var data = {
             "Image": "",
         },
         {
-            "Title": "Stupid children of Stupid Parents",
+            "Title": "Bad Players of Clueless Parents",
             "Date": "September 3, 2017",
             "Description": "Local kid scores an own goal that Loses match. His parents cheer as other attendees throw garbage at them.",
             "Ticker": "",
