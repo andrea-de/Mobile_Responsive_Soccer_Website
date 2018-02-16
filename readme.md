@@ -19,7 +19,7 @@ Tablet view:
 - Database integration with Live refresh for chat
 - User Login and Authentication with Google account
 
-<img src="demoPics/demo5.PNG" alt="NYSL" style="text-align:center; width: 100%"/>
+<img src="demoPics/demo5.PNG" alt="NYSL" style="text-align:center; width: 100%;"/>
 
 ## HTML, CSS and Javascript skills implemented
 
@@ -29,9 +29,9 @@ Tablet view:
 -  Responsive design for varying mobile screen sizes using media-queries and proportional scaling
 - Android and Iphone specific meta-tag elements
 
-<img src="demoPics/demo4.PNG" alt="NYSL" style="text-align:center; width: 100%"/>
-<img src="demoPics/demo3.PNG" alt="NYSL" style="text-align:center; width: 100%"/>
-<img src="demoPics/demo6.PNG" alt="NYSL" style="text-align:center; width: 100%"/>
+<img src="demoPics/demo4.PNG" alt="NYSL" style="display:inline"/>
+<img src="demoPics/demo3.PNG" alt="NYSL" style="display:inline"/>
+<img src="demoPics/demo6.PNG" alt="NYSL" style="display:inline"/>
 
 ## Future Development
 
