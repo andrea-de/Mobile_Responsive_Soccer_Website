@@ -4,13 +4,14 @@ Soccer League chat-enabled mobile responsive website hosted on Google Firebase
 
 https://nysl-home.firebaseapp.com/
 
+#### Website !! - Mobile Only - !!
 <img src="demoPics/demo1.PNG" alt="NYSL" style="text-align:center; width: 100%"/>
 
 ## Technology Detail
 
 Javascript application using modern styling methods. Service hosting, database management, and authentication provided by Google Firebase. Chat-enabled with realtime persistent NoSQL database. Optimized for phone or tablet views.
 
-Tablet view:
+Tablet view: </br>
 <img src="demoPics/demo2.PNG" alt="NYSL" style="text-align:center; width: 100%"/>
 
 ## Developer operations skills implemented
