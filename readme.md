@@ -29,9 +29,7 @@ Tablet view:
 -  Responsive design for varying mobile screen sizes using media-queries and proportional scaling
 - Android and Iphone specific meta-tag elements
 
-<img src="demoPics/demo4.PNG" alt="NYSL" style="display:inline"/>
-<img src="demoPics/demo3.PNG" alt="NYSL" style="display:inline"/>
-<img src="demoPics/demo6.PNG" alt="NYSL" style="display:inline"/>
+<img src="demoPics/demo7.PNG" alt="NYSL"/>
 
 ## Future Development
 
